@@ -1,36 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --jas:110vh;
+}
 .one{
     background-image: url('one.jpg');
     background-attachment: fixed;
-    height: 1000px;
+    height:var(--jas);
     background-size: cover;
 }
 .two{
     color: #fff;
     background-image: url('two.jpg');
     background-attachment: fixed;
-    height: 1000px;
+    height: var(--jas);
     background-size: cover;
 }
 .three{
     background-image: url('three.jpg');
     background-attachment: fixed;
-    height: 1000px;
+    height: var(--jas);
     background-size: cover;
 }
 .four{
     background-image: url('four.jpg');
     background-attachment: fixed;
-    height: 1000px;
+    height: var(--jas);
     background-size: cover;
 }
 .five{
     background-image: url('five.jpg');
     background-attachment: fixed;
-    height: 1000px;
+    height: var(--jas);
     background-size: cover;
 }
 .header{
@@ -68,28 +74,28 @@ body{
     background-color: rgba(0, 0, 0, 0.095);
     position: absolute;
     left: 100px;
-    top:150%;
+    top:170%;
 }
 .three-quote{
     background-color: rgba(0, 0, 0, 0.095);
     position: absolute;
     color: #fff;
     left: 100px;
-    top:250%;
+    top:280%;
 }
 .four-quote{
     background-color: rgba(0, 0, 0, 0.095);
     position: absolute;
     color: #fff;
     left: 100px;
-    top:350%;
+    top:400%;
 }
 .five-quote{
     background-color: rgba(0, 0, 0, 0.095);
     position: absolute;
     color: #fff;
     left: 100px;
-    top:450%;
+    top:520%;
 }
 button{
     color: #fff;
